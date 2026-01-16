@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -47,5 +48,12 @@ int main() {
 
     // print_array(arr_main, 4);
 
+    vector<int> vec = {1,2,3,4,5};
+    vec.push_back(6);
+    vec.pop_back();
+    vec.size();
+
+    cout << vec[0] << endl;
+    
     return 0;
 }
